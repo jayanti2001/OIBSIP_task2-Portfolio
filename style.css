@@ -3,6 +3,8 @@
 
 :root{
     --primary-color: #fb7185;
+    --dark-gray : #6b7280;
+    --off-white : #f3f4f6;
 
 }
 
@@ -70,7 +72,7 @@ hr{
 }
 
 .navigation .nav-pills{
-    text-align: left;
+    text-align: right;
 }
 
 .navigation .link{
@@ -80,3 +82,35 @@ hr{
 .navigation .link-active{
     font-weight: bold;
 }
+
+/* header */
+
+.hero{
+    padding : 2rem;
+}
+
+hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    padding-top: 1rem;
+    color: var(--dark-gray);
+}
+
+/* section */
+
+.section{
+  padding :2rem;
+}
+
+.section h1{
+    text-align: center;
+}
+
+.ow{
+    background-color: var(--off-white);
+}
+
