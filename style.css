@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap");
 
 :root{
     --primary-color: #fb7185;
@@ -9,13 +9,18 @@
 }
 
 body{
-    font-family: 'Montserrat',
-     sans-serif;
+    font-family: 'Bitter',
+    serif;
 }
 
 hr{
     margin: 3rem 0rem;
 }
+
+.margin-md{
+    margin :2rem;
+}
+
 
 /* container */
 .container{
@@ -25,10 +30,12 @@ hr{
 .container-center{
     max-width: 600px;
     margin: auto;
+    margin-bottom: 50px;;
 }
 
 /* links */
 .link {
+    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
@@ -87,9 +94,10 @@ hr{
 
 .hero{
     padding : 2rem;
+    padding-top: 5rem;
 }
 
-hero .hero-img{
+.hero .hero-img{
     max-width: 350px;
     display: block;
     margin: auto;
@@ -127,6 +135,11 @@ hero .hero-img{
 
 .footer .link{
     color: white;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
 }
 
 .footer .ul{
